@@ -721,18 +721,19 @@
 /* Main */
 	#main header {
 		position: relative; /* Establish a positioning context */
+		 margin-top: 70px;
 	}
 
 	.horizontal-tabs {
 		position: fixed;
 		right: 10%; /* Align right at 5% from the right edge of the header */
-		top: 10px; /* Position it slightly below the top of the header */
+		top: 50px; /* Position it slightly below the top of the header */
 		display: flex; /* Use flexbox for layout */
 		flex-direction: row; /* Stack items vertically */
 		align-items: flex-end; /* Align items to the right */
 		width: auto; /* Automatically adjust width based on content */
 		font-size: 0.85rem; /* Responsive font size based on the root element */
-		z-index: 1000;
+		z-index: 1500;
 	}
 
 	.horizontal-tabs .tab {
