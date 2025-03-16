@@ -17,7 +17,6 @@
 		font: inherit;
 		vertical-align: baseline;
 		padding-top: 60px;
-		overflow: auto;
 	}
         .navbar {
     position: fixed;
