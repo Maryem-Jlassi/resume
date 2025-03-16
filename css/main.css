@@ -706,14 +706,15 @@
 	}
 
 	.horizontal-tabs {
-		position: absolute;
-		right: 5%; /* Align right at 5% from the right edge of the header */
-		top: -50px; /* Position it slightly below the top of the header */
+		position: fixed;
+		right: 10%; /* Align right at 5% from the right edge of the header */
+		top: 10px; /* Position it slightly below the top of the header */
 		display: flex; /* Use flexbox for layout */
-		flex-direction: column; /* Stack items vertically */
+		flex-direction: row; /* Stack items vertically */
 		align-items: flex-end; /* Align items to the right */
 		width: auto; /* Automatically adjust width based on content */
 		font-size: 0.85rem; /* Responsive font size based on the root element */
+		z-index: 1000;
 	}
 
 	.horizontal-tabs .tab {
